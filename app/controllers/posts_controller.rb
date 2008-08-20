@@ -82,4 +82,8 @@ class PostsController < ApplicationController
       format.xml  { head :ok }
     end
   end
+  
+  # SEARCH
+  def search
+  end
 end
